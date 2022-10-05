@@ -1,0 +1,123 @@
+@media screen and (max-width: 767px){
+
+header{
+    margin: 0; 
+}
+
+#logo img{
+    width: 40%;
+    margin: 30px; 
+    margin-left: 40%; 
+}
+
+nav ul{
+    
+    width:100%;
+    
+}
+li{
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav li:hover {
+    border-bottom: 3px solid #0065FC;
+ }
+
+/*-----searchbar-----*/
+main{
+    margin:0; 
+}
+
+#intro h1{
+    margin: 30px;
+ }
+
+ #intro p{
+    margin: -10px 30px; 
+}
+
+.search_bar{
+    margin-top: 40px; 
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+#little_info{
+    margin-left: 20px; 
+}
+
+/*-----hebergement---*/
+#article h2 {
+    margin:30px;
+}
+    
+#article h4{
+    margin: 30px ;
+}
+
+.liste_card_lodging {
+    width: 90%;
+}
+/*-----card mostpopular----*/
+
+#most_popular{
+    border-radius: 0px ; 
+}
+
+.card_popular{
+    width: 90%;
+}
+
+/*----card activite----*/
+#activite h2{
+    margin-left: 30px;
+}
+
+#card_activite img{
+    width: 100%;
+    height: 115px;
+}
+
+.big{
+    width: 90%;
+    height: 160px;
+}
+.little{
+    width: 90%;
+    height: 160px;
+   
+}
+.little_dame{
+    width: 90%;
+    height: 160px;
+}
+.little_longchamp{
+    width: 90%;
+    height: 160px;
+}
+.little_frioul{
+    width: 90%;
+    height: 160px;
+}
+
+.column{
+    width:100%;
+    margin-bottom: 40px;
+    align-items: center;
+}
+/*----footer----*/
+
+.propos li{
+    text-align: start;
+}
+
+.propos{
+    width: 100%;
+    margin: 10px;
+    padding: 10px; 
+}
+
+}

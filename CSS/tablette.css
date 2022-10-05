@@ -1,0 +1,164 @@
+@media screen and (max-width: 992px){ 
+    
+#wrapper{
+width:100%; 
+}
+/*-------navigateur------*/
+
+header{
+    flex-direction: column;
+}
+
+#logo img{
+    width: 60%;
+    margin: 30px; 
+    margin-left: 30%; 
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin: 30px 0px;
+    gap:0px
+}
+
+li{
+    border-bottom: 3px solid #F2F2F2;
+}
+
+nav a:hover{
+    border-top: none; 
+}
+/*--------searchbar-----*/
+#intro h1{
+    margin-left: 30px; 
+}
+#intro p{
+    margin-left: 30px;
+}
+.search_bar{
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button.btn_desktop{
+    display:none; 
+}
+
+button.btn_responsive i{
+    display:flex;
+    position:relative;
+    right: 30px;
+    background-color:#0065FC;
+    color:white;
+    border-radius: 15px;
+    border:none !important;
+    width: 45px;
+    height: 45px;
+    cursor: pointer; 
+    font-size: 20px; 
+}
+
+ button.btn_responsive{
+    border:none;
+    background: white;
+}
+
+/*----filter-----*/
+
+.filter{
+    display:block;
+    margin-left: 20px; 
+}
+
+.filter h2{
+    margin: 20px;
+    font-size: 20px;
+}
+ 
+.container_filter{
+    gap: 10px; 
+}
+
+#little_info{
+    margin: 20px; 
+}
+
+/*-----lodging-----*/
+
+#lodging{
+    flex-direction: column-reverse;
+    margin: 0px; 
+}
+
+#article h2{
+    margin-left: 125px;
+}
+
+#article h4{
+    margin-left: 130px;
+
+}
+#article{
+    
+    background-color: white;
+    width: 100%; 
+    height: auto;
+    margin: 0px; 
+}
+
+#card{
+    width: 100%;
+}
+
+    
+
+/*------card mostpopular------*/
+
+#most_popular {
+    width: 100%;
+    margin-bottom: 30px; 
+    margin-left:0px; 
+}
+    
+.card_popular{
+    width:70%;
+}
+
+ 
+   /*---carte activite---*/
+
+#card_activite{
+    width: 100% ;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.big{
+    margin-bottom: 40px;
+}
+
+#activite h2{
+    margin-left: 50px;
+}
+/*-----footer------*/
+#info{
+    background-color: #F2F2F2;
+    flex-direction:column; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+
+}
+
+
+
+
